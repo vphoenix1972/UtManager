@@ -40,6 +40,8 @@ namespace UtManager.Web
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
+            app.ApplyDatabaseMigrations();
+
             app.UseMvc();
         }
     }
