@@ -50,6 +50,8 @@ namespace UtManager.Web
 
             app.ApplyDatabaseMigrations();
 
+            app.UseStaticFiles();
+
             app.UseMvc();
         }
     }
