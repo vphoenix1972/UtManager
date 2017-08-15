@@ -13,3 +13,5 @@ import './appModule';
 
 /* Angular Components */
 import './appController';
+
+import './directives/utmMenu/utmMenuDirective'
